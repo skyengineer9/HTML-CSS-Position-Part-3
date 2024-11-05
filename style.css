@@ -1,0 +1,59 @@
+body {
+  padding-bottom: 3000px; /* Add extra space at the bottom of the page for scrolling */
+}
+
+.profile-image {
+  width: 40px; /* Set the width of the profile image */
+  height: 40px; /* Set the height of the profile image */
+  border-radius: 20px; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the designated area */
+}
+
+.navbar {
+  display: flex; /* Use flexbox layout for the navigation bar */
+  justify-content: space-between; /* Space out elements evenly */
+  background-color: rgb(161, 216, 216); /* Set background color of the navbar */
+  position: fixed; /* Fix the navbar at the top of the viewport */
+  right: 0; /* Align navbar to the right */
+  left: 0; /* Align navbar to the left */
+  top: 0; /* Position navbar at the top */
+}
+
+.right-side {
+  display: flex; /* Use flexbox layout for the right side */
+  align-items: center; /* Center items vertically */
+  padding-left: 50px; /* Add padding to the left */
+}
+
+.left-side {
+  padding-right: 50px; /* Add padding to the right */
+  display: flex; /* Use flexbox layout for the left side */
+  align-items: center; /* Center items vertically */
+}
+
+.profile-name {
+  padding-left: 10px; /* Add space between the image and name */
+  font-weight: 700; /* Make the font bold */
+}
+
+.friend-button {
+  background-color: rgb(15, 109, 231); /* Set background color for the friend button */
+  margin-right: 10px; /* Add space to the right of the button */
+  color: white; /* Set text color to white */
+  border: none; /* Remove border */
+  width: 90px; /* Set button width */
+  height: 30px; /* Set button height */
+  border-radius: 5px; /* Round the button corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.message-button {
+  background-color: rgb(226, 226, 226); /* Set background color for the message button */
+  color: black; /* Set text color to black */
+  border: none; /* Remove border */
+  width: 90px; /* Set button width */
+  height: 30px; /* Set button height */
+  border-radius: 5px; /* Round the button corners */
+  font-weight: 600; /* Make the font slightly bold */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
